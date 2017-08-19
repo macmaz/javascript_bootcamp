@@ -27,3 +27,33 @@ while(i < 10) {
     i++ //konczy petle po 10 razach
 }
 
+/* petla do...while */
+
+/*var j=0;
+
+do {
+    console.log(j);
+    j--;
+}
+while (j > 10 ) */ 
+    
+    for(var i=0; i<3; i++) {
+        for(var j=0; i<3; i++) {
+            console.log("i: " + i + " j: " + j);
+            break;
+        }
+    }
+    
+    
+/* petla continium */ 
+
+for(var i=0; i<3; i++) {
+        for(var j=0; i<3; i++) {
+            console.log("i: " + i + " j: " + j);
+           if(j % 2 == 0) {
+               continue;
+           }
+            console.log("Koniec obiegu");
+        }
+    }
+    
