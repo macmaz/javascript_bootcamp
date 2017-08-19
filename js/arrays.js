@@ -48,20 +48,24 @@ console.log( imiona ); // wypisze się "Ania, Grześ, Marcin, Piotrek"
 
 var imionaMeskie = ["Maciej", "Marcin", "Sławek"];
 
-var zbiorImion = imionaMeskie.concat(imiona);
-console.log(zbiorImion);
+var zbiorImion2 = imionaMeskie.concat(imiona);
+console.log(zbiorImion2);
 console.log("Tablica imiona męskie: " + imionaMeskie);
+
 
 //przydatne funkcje
 
 // wyswietla ktory index ma element
-console.log(zbiorImion.indexOf("Michał")); 
+console.log(zbiorImion2.indexOf("Marcin")); 
 
 //sprawdza czy zbior jest tablicą
-console.log(Array.isArray(zbiorImion));
+console.log(Array.isArray(zbiorImion2));
 
 //wycina indeksy od 2 do 5
-console.log(zbiorImion.slice(2,5));
+console.log(zbiorImion2.slice(2,5));
+
+//rodziela elementy kreską
+console.log(zbiorImion2.toString());
 
 
 
