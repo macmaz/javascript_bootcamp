@@ -18,7 +18,7 @@ tablica.forEach( function( element, index ) {
 console.log( "Element z Indexem: " + index + " ma wartość " + element );
 });
 
-/* petla white */
+/* petla while */
 
 
 var i= 0 ;
